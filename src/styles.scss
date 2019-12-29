@@ -1,1 +1,8 @@
-/* You can add global styles to this file, and also import other style files */
+$primary-color: #007bb5;
+$secundary-color: #505050;
+
+body {
+  display: flex;
+  height: 100vh;
+  margin: 0;
+}
