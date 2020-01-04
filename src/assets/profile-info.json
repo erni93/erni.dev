@@ -1,0 +1,38 @@
+{
+  "photoUrl": "",
+  "name": "Ernesto del valle",
+  "socialMedias": [
+    {
+      "name": "Linkedin",
+      "imgUrl": "",
+      "href": ""
+    }
+  ],
+  "textSections": [
+    {
+      "iconUrl": "",
+      "title": "About me",
+      "content": "Bla bla bla bla"
+    }
+  ],
+  "projectsSection": [
+    {
+      "iconUrl": "",
+      "title": "Projects",
+      "projects": [
+        {
+          "imgUrl": "",
+          "title": "Moon",
+          "languajes": [
+            {
+              "name": "Go",
+              "iconUrl": ""
+            }
+          ],
+          "description": "Moon rocket",
+          "href": ""
+        }
+      ]
+    }
+  ]
+}
