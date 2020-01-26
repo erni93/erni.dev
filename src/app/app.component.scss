@@ -1,0 +1,22 @@
+@import "~src/styles/variables.scss";
+
+:host {
+  display: flex;
+  height: 100vh;
+}
+
+.profile {
+  background-color: $secundary-color;
+  color: white;
+  flex: 1;
+}
+
+.content {
+  flex: 3;
+  overflow: auto;
+}
+
+.profile,
+.content {
+  padding: 3em;
+}
