@@ -5,7 +5,7 @@ export interface ProfileInfo {
   name: string;
   socialMedias: SocialMedia[];
   textSections: TextSection[];
-  projectsSection: ProjectSection[];
+  projectSections: ProjectSection[];
 }
 
 interface SocialMedia {

@@ -10,14 +10,12 @@
   ],
   "textSections": [
     {
-      "iconUrl": "",
       "title": "About me",
       "content": "Bla bla bla bla"
     }
   ],
-  "projectsSection": [
+  "projectSections": [
     {
-      "iconUrl": "",
       "title": "Projects",
       "projects": [
         {

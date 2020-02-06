@@ -1,0 +1,10 @@
+@import "~src/styles/variables.scss";
+
+h1 {
+  margin: 0 0 0.5em 0;
+}
+
+.separator {
+  height: 0.2em;
+  background-color: $primary-color;
+}

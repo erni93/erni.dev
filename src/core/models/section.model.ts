@@ -1,5 +1,4 @@
 interface Section {
-  iconUrl: string;
   title: string;
 }
 
