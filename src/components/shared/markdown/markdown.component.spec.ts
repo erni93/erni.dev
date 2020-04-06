@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MarkdownComponent } from "./markdown.component";
+import { MarkdownComponent } from './markdown.component';
 
-describe("MarkdownComponent", () => {
+describe('MarkdownComponent', () => {
   let component: MarkdownComponent;
   let fixture: ComponentFixture<MarkdownComponent>;
 
@@ -18,7 +18,7 @@ describe("MarkdownComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

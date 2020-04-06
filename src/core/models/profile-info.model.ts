@@ -1,4 +1,4 @@
-import { TextSection, ProjectSection } from "./section.model";
+import { TextSection, ProjectSection } from './section.model';
 
 export interface ProfileInfo {
   photoUrl: string;

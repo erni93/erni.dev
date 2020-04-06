@@ -1,13 +1,13 @@
-import { Component } from "@angular/core";
-import { finalize } from "rxjs/operators";
+import { Component } from '@angular/core';
+import { finalize } from 'rxjs/operators';
 
-import { AppService } from "./app.service";
-import { ProfileInfo } from "../core/models/profile-info.model";
+import { AppService } from './app.service';
+import { ProfileInfo } from '../core/models/profile-info.model';
 
 @Component({
-  selector: "app-root",
-  templateUrl: "./app.component.html",
-  styleUrls: ["./app.component.scss"]
+  selector: 'app-root',
+  templateUrl: './app.component.html',
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
   public isLoading = true;

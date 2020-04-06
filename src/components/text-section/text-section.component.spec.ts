@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { TextSectionComponent } from "./text-section.component";
+import { TextSectionComponent } from './text-section.component';
 
-describe("TextSectionComponent", () => {
+describe('TextSectionComponent', () => {
   let component: TextSectionComponent;
   let fixture: ComponentFixture<TextSectionComponent>;
 
@@ -18,7 +18,7 @@ describe("TextSectionComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });

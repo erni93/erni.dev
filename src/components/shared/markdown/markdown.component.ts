@@ -1,15 +1,15 @@
-import { Component, Input } from "@angular/core";
-import { DomSanitizer, SafeHtml } from "@angular/platform-browser";
-import marked from "marked";
-import DOMPurify from "dompurify";
+import { Component, Input } from '@angular/core';
+import { DomSanitizer, SafeHtml } from '@angular/platform-browser';
+import marked from 'marked';
+import DOMPurify from 'dompurify';
 
 @Component({
-  selector: "app-markdown",
+  selector: 'app-markdown',
   template: '<div [innerHTML]="data"></div>',
-  styleUrls: ["./markdown.component.scss"]
+  styleUrls: ['./markdown.component.scss']
 })
 export class MarkdownComponent {
-  @Input("text")
+  @Input('text')
   set text(value: string) {
     this.data = this.markdownToSafeHtml(value);
   }

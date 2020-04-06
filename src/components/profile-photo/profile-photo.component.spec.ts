@@ -1,8 +1,8 @@
-import { async, ComponentFixture, TestBed } from "@angular/core/testing";
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { ProfilePhotoComponent } from "./profile-photo.component";
+import { ProfilePhotoComponent } from './profile-photo.component';
 
-describe("ProfilePhotoComponent", () => {
+describe('ProfilePhotoComponent', () => {
   let component: ProfilePhotoComponent;
   let fixture: ComponentFixture<ProfilePhotoComponent>;
 
@@ -18,7 +18,7 @@ describe("ProfilePhotoComponent", () => {
     fixture.detectChanges();
   });
 
-  it("should create", () => {
+  it('should create', () => {
     expect(component).toBeTruthy();
   });
 });
