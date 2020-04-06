@@ -5,7 +5,8 @@ import DOMPurify from "dompurify";
 
 @Component({
   selector: "app-markdown",
-  template: '<div [innerHTML]="data"></div>'
+  template: '<div [innerHTML]="data"></div>',
+  styleUrls: ["./markdown.component.scss"]
 })
 export class MarkdownComponent {
   @Input("text")
