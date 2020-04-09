@@ -5,8 +5,7 @@
   <section class="content">
     <app-text-section
       *ngFor="let section of profileInfo.textSections"
-      [header]="section.title"
-      [text]="section.content"
+      [data]="section"
     >
     </app-text-section>
     <p>

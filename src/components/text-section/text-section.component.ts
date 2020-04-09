@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { TextSection } from '../../core/models/section.model';
 
 @Component({
   selector: 'app-text-section',
@@ -6,8 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./text-section.component.scss']
 })
 export class TextSectionComponent {
-  @Input() header: string;
-  @Input() text: string;
-
-  constructor() {}
+  @Input() data: TextSection;
 }

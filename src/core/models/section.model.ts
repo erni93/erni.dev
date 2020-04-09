@@ -1,5 +1,8 @@
-interface Section {
+import { IconLookup } from '@fortawesome/fontawesome-common-types';
+
+export interface Section {
   title: string;
+  icon: IconLookup;
 }
 
 export interface TextSection extends Section {
@@ -13,12 +16,12 @@ export interface ProjectSection extends Section {
 interface Project {
   imgUrl: string;
   title: string;
-  languajes: Languaje[];
+  Languages: Language[];
   description: string;
   href: string;
 }
 
-interface Languaje {
+interface Language {
   name: string;
   iconUrl: string;
 }

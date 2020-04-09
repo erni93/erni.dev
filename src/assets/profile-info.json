@@ -11,17 +11,25 @@
   "textSections": [
     {
       "title": "About me",
+      "icon": {
+        "prefix": "fas",
+        "iconName": "user-circle"
+      },
       "content": "# Hello\n**gg wp**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit"
     }
   ],
   "projectSections": [
     {
       "title": "Projects",
+      "icon": {
+        "prefix": "fas",
+        "iconName": "user-circle"
+      },
       "projects": [
         {
           "imgUrl": "",
           "title": "Moon",
-          "languajes": [
+          "languages": [
             {
               "name": "Go",
               "iconUrl": ""

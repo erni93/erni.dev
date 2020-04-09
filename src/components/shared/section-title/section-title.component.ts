@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { Section } from '../../../core/models/section.model';
 
 @Component({
   selector: 'app-section-title',
@@ -6,7 +7,5 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./section-title.component.scss']
 })
 export class SectionTitleComponent {
-  @Input() header: string;
-
-  constructor() {}
+  @Input() data: Section;
 }
