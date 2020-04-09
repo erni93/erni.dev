@@ -1,7 +1,11 @@
-@import "~src/styles/variables.scss";
+@import '~src/styles/variables.scss';
 
 h1 {
-  margin: 0 0 0.5em 0;
+  background-color: #007bb5;
+  color: white;
+  display: inline-block;
+  margin: 0;
+  padding: 5px 15px;
 }
 
 .separator {
