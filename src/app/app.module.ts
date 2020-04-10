@@ -5,7 +5,8 @@ import {
   FontAwesomeModule,
   FaIconLibrary
 } from '@fortawesome/angular-fontawesome';
-import { faUserCircle } from '@fortawesome/free-solid-svg-icons';
+import { fas } from '@fortawesome/free-solid-svg-icons';
+import { fab } from '@fortawesome/free-brands-svg-icons';
 
 import { AppComponent } from './app.component';
 import { ProfilePhotoComponent } from '../components/profile-photo/profile-photo.component';
@@ -27,7 +28,6 @@ import { TextSectionComponent } from '../components/text-section/text-section.co
 })
 export class AppModule {
   constructor(library: FaIconLibrary) {
-    // Add an icon to the library for convenient access in other components
-    library.addIcons(faUserCircle);
+    library.addIconPacks(fas, fab);
   }
 }

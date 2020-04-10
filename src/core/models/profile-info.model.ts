@@ -1,4 +1,5 @@
 import { TextSection, ProjectSection } from './section.model';
+import { IconLookup } from '@fortawesome/fontawesome-common-types';
 
 export interface ProfileInfo {
   photoUrl: string;
@@ -10,6 +11,6 @@ export interface ProfileInfo {
 
 interface SocialMedia {
   name: string;
-  imgUrl: string;
   href: string;
+  icon: IconLookup;
 }

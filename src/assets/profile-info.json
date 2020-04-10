@@ -4,8 +4,35 @@
   "socialMedias": [
     {
       "name": "Linkedin",
-      "imgUrl": "",
-      "href": ""
+      "icon": {
+        "prefix": "fab",
+        "iconName": "linkedin"
+      },
+      "href": "https://www.linkedin.com/in/ernesto-del-valle"
+    },
+    {
+      "name": "Github",
+      "icon": {
+        "prefix": "fab",
+        "iconName": "github-square"
+      },
+      "href": "https://github.com/erni93"
+    },
+    {
+      "name": "Stack overflow",
+      "icon": {
+        "prefix": "fab",
+        "iconName": "stack-overflow"
+      },
+      "href": "https://stackoverflow.com/users/5231125/erni"
+    },
+    {
+      "name": "Email",
+      "icon": {
+        "prefix": "fas",
+        "iconName": "envelope"
+      },
+      "href": "mailto:erni.delvalle@outlook.com"
     }
   ],
   "textSections": [

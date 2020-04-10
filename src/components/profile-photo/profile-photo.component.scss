@@ -1,4 +1,4 @@
-@import "~src/styles/variables.scss";
+@import '~src/styles/variables.scss';
 
 :host {
   display: flex;
@@ -6,14 +6,39 @@
   align-items: center;
 }
 
-.photo {
+img.photo {
   max-width: 300px;
   max-height: 300px;
   border-radius: 50%;
   border: solid 5px $primary-color;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
 
-.name {
+h1.name {
   font-size: 2.5em;
+  margin-bottom: 10px;
+}
+
+ul.social-medias {
+  margin: 0;
+  background-color: $primary-color;
+  width: 100%;
+  padding: 5px 0;
+  text-align: center;
+  color: white;
+
+  > li {
+    display: inline-block;
+    margin-right: 10px;
+
+    > a {
+      color: inherit;
+      text-decoration: inherit;
+      display: inline-block;
+    }
+  }
+}
+
+img.photo,
+ul.social-medias {
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
 }
