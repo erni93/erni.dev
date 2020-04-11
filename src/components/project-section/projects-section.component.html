@@ -1,0 +1,21 @@
+<app-section-title [data]="data"></app-section-title>
+<div class="card-container">
+  <div *ngFor="let project of data.projects" class="card">
+    <div
+      class="card-img"
+      [style.background-image]="'url(' + IMG_PATH_PREFIX + project.imgUrl + ')'"
+    ></div>
+    <div class="card-body">
+      <h5>{{ project.title }}</h5>
+      <ul>
+        <li *ngFor="let language of project.languages">
+          <img
+            [src]="IMG_PATH_PREFIX + language.iconUrl"
+            [alt]="language.name"
+          />
+        </li>
+      </ul>
+      <p>{{ project.description }}</p>
+    </div>
+  </div>
+</div>

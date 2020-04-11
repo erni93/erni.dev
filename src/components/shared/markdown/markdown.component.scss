@@ -1,7 +1,9 @@
+@import '~src/styles/variables.scss';
+
 :host {
   display: block;
-  background-color: #f7f7f7;
+  background-color: $white-content-color;
   padding: 1em;
-  margin: 1em 0;
+  margin: 1.5em 0;
   box-sizing: border-box;
 }

@@ -35,37 +35,81 @@
       "href": "mailto:erni.delvalle@outlook.com"
     }
   ],
-  "textSections": [
-    {
-      "title": "About me",
-      "icon": {
-        "prefix": "fas",
-        "iconName": "user-circle"
+  "aboutMeSection": {
+    "title": "About me",
+    "icon": {
+      "prefix": "fas",
+      "iconName": "user-astronaut"
+    },
+    "content": "# Hello\n**gg wp**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit"
+  },
+  "projectsSection": {
+    "title": "Projects",
+    "icon": {
+      "prefix": "fas",
+      "iconName": "drafting-compass"
+    },
+    "projects": [
+      {
+        "imgUrl": "go-background.png",
+        "title": "Goroutines with Web scraping",
+        "languages": [
+          {
+            "name": "Go",
+            "iconUrl": "go-icon.png"
+          }
+        ],
+        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
+        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
       },
-      "content": "# Hello\n**gg wp**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit"
-    }
-  ],
-  "projectSections": [
-    {
-      "title": "Projects",
-      "icon": {
-        "prefix": "fas",
-        "iconName": "user-circle"
+      {
+        "imgUrl": "go-background.png",
+        "title": "Goroutines with Web scraping",
+        "languages": [
+          {
+            "name": "Go",
+            "iconUrl": "go-icon.png"
+          }
+        ],
+        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
+        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
       },
-      "projects": [
-        {
-          "imgUrl": "",
-          "title": "Moon",
-          "languages": [
-            {
-              "name": "Go",
-              "iconUrl": ""
-            }
-          ],
-          "description": "Moon rocket",
-          "href": ""
-        }
-      ]
-    }
-  ]
+      {
+        "imgUrl": "go-background.png",
+        "title": "Goroutines with Web scraping",
+        "languages": [
+          {
+            "name": "Go",
+            "iconUrl": "go-icon.png"
+          }
+        ],
+        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
+        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+      },
+      {
+        "imgUrl": "go-background.png",
+        "title": "Goroutines with Web scraping",
+        "languages": [
+          {
+            "name": "Go",
+            "iconUrl": "go-icon.png"
+          }
+        ],
+        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
+        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+      },
+      {
+        "imgUrl": "go-background.png",
+        "title": "Goroutines with Web scraping",
+        "languages": [
+          {
+            "name": "Go",
+            "iconUrl": "go-icon.png"
+          }
+        ],
+        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
+        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+      }
+    ]
+  }
 }

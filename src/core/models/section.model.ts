@@ -9,14 +9,14 @@ export interface TextSection extends Section {
   content: string;
 }
 
-export interface ProjectSection extends Section {
+export interface ProjectsSection extends Section {
   projects: Project[];
 }
 
 interface Project {
   imgUrl: string;
   title: string;
-  Languages: Language[];
+  languages: Language[];
   description: string;
   href: string;
 }

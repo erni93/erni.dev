@@ -13,6 +13,7 @@ import { ProfilePhotoComponent } from '../components/profile-photo/profile-photo
 import { SectionTitleComponent } from '../components/shared/section-title/section-title.component';
 import { MarkdownComponent } from '../components/shared/markdown/markdown.component';
 import { TextSectionComponent } from '../components/text-section/text-section.component';
+import { ProjectsSectionComponent } from '../components/project-section/projects-section.component';
 
 @NgModule({
   imports: [BrowserModule, HttpClientModule, FontAwesomeModule],
@@ -21,7 +22,8 @@ import { TextSectionComponent } from '../components/text-section/text-section.co
     ProfilePhotoComponent,
     SectionTitleComponent,
     MarkdownComponent,
-    TextSectionComponent
+    TextSectionComponent,
+    ProjectsSectionComponent
   ],
   providers: [],
   bootstrap: [AppComponent]
