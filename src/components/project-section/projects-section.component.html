@@ -6,16 +6,17 @@
       [style.background-image]="'url(' + IMG_PATH_PREFIX + project.imgUrl + ')'"
     ></div>
     <div class="card-body">
-      <h5>{{ project.title }}</h5>
       <ul>
-        <li *ngFor="let language of project.languages">
-          <img
-            [src]="IMG_PATH_PREFIX + language.iconUrl"
-            [alt]="language.name"
-          />
+        <li *ngFor="let tag of project.tags" [title]="tag.name">
+          <img [src]="IMG_PATH_PREFIX + tag.iconUrl" [alt]="tag.name" />
         </li>
       </ul>
+      <h3>{{ project.title }}</h3>
       <p>{{ project.description }}</p>
+      <a [href]="project.href" title="Details" target="_blank">
+        <fa-icon icon="external-link-alt"></fa-icon>
+        Details
+      </a>
     </div>
   </div>
 </div>

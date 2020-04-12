@@ -51,9 +51,21 @@
     },
     "projects": [
       {
+        "imgUrl": "youtube-playlist.jpg",
+        "title": "Youtube Playlist",
+        "tags": [
+          {
+            "name": "Angular",
+            "iconUrl": "angular-icon.png"
+          }
+        ],
+        "description": "Get a playlist from Youtube api using Angular.",
+        "href": "https://github.com/erni93/angular-youtube-playlist"
+      },
+      {
         "imgUrl": "go-background.png",
         "title": "Goroutines with Web scraping",
-        "languages": [
+        "tags": [
           {
             "name": "Go",
             "iconUrl": "go-icon.png"
@@ -63,52 +75,76 @@
         "href": "https://github.com/erni93/demo-goroutine-web-scraping"
       },
       {
-        "imgUrl": "go-background.png",
-        "title": "Goroutines with Web scraping",
-        "languages": [
+        "imgUrl": "card-reader-azure.jpg",
+        "title": "Business card reader",
+        "tags": [
           {
-            "name": "Go",
-            "iconUrl": "go-icon.png"
+            "name": "Angular",
+            "iconUrl": "angular-icon.png"
+          },
+          {
+            "name": "Azure",
+            "iconUrl": "azure-icon.png"
           }
         ],
-        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
-        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+        "description": "Demo of Business card reader with angular and azure OCR api.",
+        "href": "https://github.com/erni93/card-reader-azure"
       },
       {
-        "imgUrl": "go-background.png",
-        "title": "Goroutines with Web scraping",
-        "languages": [
+        "imgUrl": "photo-organizer.png",
+        "title": "Photo organizer",
+        "tags": [
           {
-            "name": "Go",
-            "iconUrl": "go-icon.png"
+            "name": "Java",
+            "iconUrl": "java-icon.png"
           }
         ],
-        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
-        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+        "description": "Using the metadata information, organizes the files in the destination folder with the syntax year_number/month_number.month_text/ ... files",
+        "href": "https://github.com/erni93/organizador-fotografias"
       },
       {
-        "imgUrl": "go-background.png",
-        "title": "Goroutines with Web scraping",
-        "languages": [
+        "imgUrl": "siete-y-media.jpg",
+        "title": "Siete y media",
+        "tags": [
           {
-            "name": "Go",
-            "iconUrl": "go-icon.png"
+            "name": "Java",
+            "iconUrl": "java-icon.png"
           }
         ],
-        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
-        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+        "description": "Popular Spanish card game that consists of approaching 7.5 points without going over.",
+        "href": "https://github.com/erni93/siete-y-media"
       },
       {
-        "imgUrl": "go-background.png",
-        "title": "Goroutines with Web scraping",
-        "languages": [
+        "imgUrl": "pos-supermarket.png",
+        "title": "POS - Supermarket",
+        "tags": [
           {
-            "name": "Go",
-            "iconUrl": "go-icon.png"
+            "name": "Java",
+            "iconUrl": "java-icon.png"
+          },
+          {
+            "name": "MySQL",
+            "iconUrl": "mysql-icon.png"
           }
         ],
-        "description": "Web scraping demo with Go using goroutines and semaphore limit.",
-        "href": "https://github.com/erni93/demo-goroutine-web-scraping"
+        "description": "Point of sale for supermarket with administration of employees, items and sales.",
+        "href": "https://github.com/erni93/tpv-supermercado"
+      },
+      {
+        "imgUrl": "heroe-teclado.jpg",
+        "title": "Heroe del teclado",
+        "tags": [
+          {
+            "name": "PHP",
+            "iconUrl": "php-icon.png"
+          },
+          {
+            "name": "SqlLite",
+            "iconUrl": "sqllite-icon.png"
+          }
+        ],
+        "description": "Spanish version of the game \"guitar hero\", with a ranking system and a list of songs to play.",
+        "href": "https://github.com/erni93/HeroeTeclado"
       }
     ]
   }

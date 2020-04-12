@@ -6,8 +6,9 @@
 }
 
 .profile {
+  background-color: $black-content-color;
+  color: white;
   flex: 1;
-  box-shadow: rgba(0, 0, 0, 0.1) 0 0 16px;
 }
 
 .content {

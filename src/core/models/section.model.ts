@@ -16,12 +16,12 @@ export interface ProjectsSection extends Section {
 interface Project {
   imgUrl: string;
   title: string;
-  languages: Language[];
+  tags: Tag[];
   description: string;
   href: string;
 }
 
-interface Language {
+interface Tag {
   name: string;
   iconUrl: string;
 }
