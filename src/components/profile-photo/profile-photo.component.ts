@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { AppService } from 'src/app/app.service';
 import { ProfileInfo } from 'src/core/models/profile-info.model';
+import { environment } from '../../environments/environment';
 
 @Component({
   selector: 'app-profile-photo',
@@ -9,6 +10,7 @@ import { ProfileInfo } from 'src/core/models/profile-info.model';
 })
 export class ProfilePhotoComponent {
   public profileInfo: ProfileInfo;
+  public version = environment.version;
 
   constructor(appService: AppService) {
     this.profileInfo = appService.profileInfo;

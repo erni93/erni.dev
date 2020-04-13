@@ -39,6 +39,18 @@ ul.social-medias {
 }
 
 img.photo,
-ul.social-medias {
+ul.social-medias,
+h5.version {
   box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+}
+
+h5.version {
+  position: absolute;
+  font-size: 10px;
+  margin: 0;
+  bottom: 0;
+  right: 0;
+  background-color: $primary-color;
+  padding: 5px 15px;
+  text-align: right;
 }
