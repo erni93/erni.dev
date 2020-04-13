@@ -41,7 +41,7 @@
       "prefix": "fas",
       "iconName": "user-astronaut"
     },
-    "content": "# Hello\n**gg wp**\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit"
+    "content": "I am a software developer mainly focused on web development, with experience in other fields like server infrastructure, administration and security. Right now I am living in Spain.\r\n\r\nMore comfortable with languages like Typescript (including Angular), Go and Java.\r\n\r\nOther skills like Version control (Git), SQL databases (PostgreSQL), containers (Docker), DevOps(GitLab CI), UNIX-like systems (including Linux and macOS), Networking Ipv4\\/6, TCP\\/IP and other protocols."
   },
   "projectsSection": {
     "title": "Projects",
