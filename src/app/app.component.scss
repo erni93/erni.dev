@@ -2,7 +2,18 @@
 
 :host {
   display: flex;
-  height: 100vh;
+}
+
+@media (max-width: $tablet-width) {
+  :host {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  :host {
+    height: 100vh;
+  }
 }
 
 .profile {

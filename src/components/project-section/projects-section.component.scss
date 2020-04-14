@@ -7,6 +7,12 @@ div.card-container {
   margin: 1.5em -2em 1.5em 0;
 }
 
+@media (max-width: $mobile-width) {
+  div.card-container {
+    justify-content: center;
+  }
+}
+
 div.card {
   background-color: $white-content-color;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 4px 16px;
