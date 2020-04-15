@@ -5,6 +5,8 @@ import { ProfileInfo } from '../core/models/profile-info.model';
 import { Observable } from 'rxjs';
 import { tap } from 'rxjs/operators';
 
+declare let gtag: Function;
+
 @Injectable({
   providedIn: 'root'
 })
@@ -17,5 +19,9 @@ export class AppService {
     return this.http
       .get('assets/profile-info.json')
       .pipe(tap((result: ProfileInfo) => (this.profileInfo = result)));
+  }
+
+  public sendEvent(eventName: string, parameters?: Object) {
+    gtag('event', eventName, parameters);
   }
 }

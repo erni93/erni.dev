@@ -4,6 +4,7 @@
     <div
       class="card-img"
       [style.background-image]="'url(' + IMG_PATH_PREFIX + project.imgUrl + ')'"
+      [style.background-image]="'url(' + IMG_PATH_PREFIX + project.imgUrl + ')'"
     ></div>
     <div class="card-body">
       <ul>
@@ -13,7 +14,12 @@
       </ul>
       <h3>{{ project.title }}</h3>
       <p>{{ project.description }}</p>
-      <a [href]="project.href" title="Details" target="_blank">
+      <a
+        (click)="sendAnalytics(project.title)"
+        [href]="project.href"
+        title="Details"
+        target="_blank"
+      >
         <fa-icon icon="external-link-alt"></fa-icon>
         Details
       </a>

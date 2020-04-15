@@ -12,7 +12,13 @@ export class ProfilePhotoComponent {
   public profileInfo: ProfileInfo;
   public version = environment.version;
 
-  constructor(appService: AppService) {
+  constructor(private appService: AppService) {
     this.profileInfo = appService.profileInfo;
+  }
+
+  sendAnalytics(name: string) {
+    this.appService.sendEvent('socialMedia', {
+      name: name
+    });
   }
 }

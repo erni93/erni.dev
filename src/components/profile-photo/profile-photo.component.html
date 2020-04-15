@@ -2,7 +2,12 @@
 <h1 class="name">{{ profileInfo.name }}</h1>
 <ul class="social-medias">
   <li *ngFor="let media of profileInfo.socialMedias">
-    <a [href]="media.href" [title]="media.name" target="_blank">
+    <a
+      (click)="sendAnalytics(media.name)"
+      [href]="media.href"
+      [title]="media.name"
+      target="_blank"
+    >
       <fa-icon [icon]="media.icon" [fixedWidth]="true" size="2x"></fa-icon>
     </a>
   </li>

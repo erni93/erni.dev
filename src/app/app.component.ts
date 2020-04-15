@@ -19,7 +19,6 @@ export class AppComponent {
       .pipe(finalize(() => (this.isLoading = false)))
       .subscribe(profileInfo => {
         this.profileInfo = profileInfo;
-        console.log(profileInfo);
       });
   }
 }
