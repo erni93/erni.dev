@@ -2,9 +2,12 @@
 
 Personal website, [Demo](https://erni.dev)
 
-Version: 1.0
+![erni.dev image_](https://user-images.githubusercontent.com/16189689/79685988-15e27500-823d-11ea-83cc-88a78fedf358.png)
 
-Angular Version: 8.2
+## Version
+
+- Project: 1.0
+- Angular: 8.2
 
 ## Features
 
