@@ -3,6 +3,8 @@ import { finalize } from 'rxjs/operators';
 
 import { AppService } from './app.service';
 import { ProfileInfo } from '../core/models/profile-info.model';
+import { Meta, Title } from '@angular/platform-browser';
+import { environment } from '../environments/environment';
 
 @Component({
   selector: 'app-root',
@@ -13,12 +15,34 @@ export class AppComponent {
   public isLoading = true;
   public profileInfo: ProfileInfo;
 
-  constructor(private appService: AppService) {
+  constructor(
+    private appService: AppService,
+    private titleService: Title,
+    private metaService: Meta
+  ) {
     this.appService
       .refreshProfileInfo()
       .pipe(finalize(() => (this.isLoading = false)))
       .subscribe(profileInfo => {
         this.profileInfo = profileInfo;
+        this.setSeoConfig();
       });
+  }
+
+  private setSeoConfig() {
+    this.titleService.setTitle(this.profileInfo.seoConfig.title);
+    this.metaService.addTags([
+      { name: 'description', content: this.profileInfo.seoConfig.description },
+      { name: 'keywords', content: this.profileInfo.seoConfig.keywords },
+      { name: 'og:title', content: this.profileInfo.seoConfig.title },
+      {
+        name: 'og:description',
+        content: this.profileInfo.seoConfig.description
+      },
+      {
+        name: 'og:image',
+        content: environment.imgPathPrefix + this.profileInfo.seoConfig.ogImage
+      }
+    ]);
   }
 }

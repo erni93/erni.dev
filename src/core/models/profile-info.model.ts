@@ -1,5 +1,6 @@
 import { TextSection, ProjectsSection } from './section.model';
 import { IconLookup } from '@fortawesome/fontawesome-common-types';
+import { SeoConfig } from './seo-config.model';
 
 export interface ProfileInfo {
   photoUrl: string;
@@ -7,6 +8,7 @@ export interface ProfileInfo {
   socialMedias: SocialMedia[];
   aboutMeSection: TextSection;
   projectsSection: ProjectsSection;
+  seoConfig: SeoConfig;
 }
 
 interface SocialMedia {

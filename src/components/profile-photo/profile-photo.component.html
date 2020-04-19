@@ -1,4 +1,4 @@
-<img class="photo" src="https://erni.dev/assets/img/profile.jpg" alt="photo" />
+<img class="photo" [src]="IMG_PATH_PREFIX + profileInfo.photoUrl" alt="photo" />
 <h1 class="name">{{ profileInfo.name }}</h1>
 <ul class="social-medias">
   <li *ngFor="let media of profileInfo.socialMedias">
@@ -12,4 +12,4 @@
     </a>
   </li>
 </ul>
-<h5 class="version">version {{ version }}</h5>
+<h5 class="version">version {{ VERSION }}</h5>

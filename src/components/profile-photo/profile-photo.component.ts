@@ -10,7 +10,8 @@ import { environment } from '../../environments/environment';
 })
 export class ProfilePhotoComponent {
   public profileInfo: ProfileInfo;
-  public version = environment.version;
+  public VERSION = environment.version;
+  public IMG_PATH_PREFIX = environment.imgPathPrefix;
 
   constructor(private appService: AppService) {
     this.profileInfo = appService.profileInfo;
