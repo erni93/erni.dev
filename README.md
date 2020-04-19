@@ -7,7 +7,7 @@ Personal website, [Demo](https://erni.dev)
 ## Version
 
 - Project: 1.0
-- Angular: 8.2
+- Angular: 9.1.2
 
 ## Features
 
