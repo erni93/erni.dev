@@ -147,11 +147,5 @@
         "href": "https://github.com/erni93/HeroeTeclado"
       }
     ]
-  },
-  "seoConfig": {
-    "title": "erni.dev",
-    "description": "Software developer mainly focused on web development, with experience in other fields like server infrastructure, administration and security.",
-    "keywords": "ernesto del valle, erni, development, angular, go, golang, erni.dev",
-    "ogImage": "profile.jpg"
   }
 }
