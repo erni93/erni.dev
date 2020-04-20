@@ -16,8 +16,6 @@ export class ProjectsSectionComponent {
   constructor(private appService: AppService) {}
 
   sendAnalytics(name: string) {
-    this.appService.sendEvent('project', {
-      name: name
-    });
+    this.appService.sendEvent(name);
   }
 }

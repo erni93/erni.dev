@@ -21,7 +21,7 @@ export class AppService {
       .pipe(tap((result: ProfileInfo) => (this.profileInfo = result)));
   }
 
-  public sendEvent(eventName: string, parameters?: Object) {
-    gtag('event', eventName, parameters);
+  public sendEvent(eventName: string) {
+    gtag('event', eventName);
   }
 }

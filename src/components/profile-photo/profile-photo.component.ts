@@ -18,8 +18,6 @@ export class ProfilePhotoComponent {
   }
 
   sendAnalytics(name: string) {
-    this.appService.sendEvent('socialMedia', {
-      name: name
-    });
+    this.appService.sendEvent(name);
   }
 }
