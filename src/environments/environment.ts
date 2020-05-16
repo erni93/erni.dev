@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   imgPathPrefix: 'assets/img/',
-  version: '1.2'
+  version: '1.3'
 };
 
 /*

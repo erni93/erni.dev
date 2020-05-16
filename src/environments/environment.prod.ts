@@ -1,5 +1,5 @@
 export const environment = {
   production: true,
   imgPathPrefix: 'assets/img/',
-  version: '1.2'
+  version: '1.3'
 };
